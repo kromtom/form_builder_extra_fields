@@ -6,20 +6,23 @@ version: 1.0.0+1
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
-  flutter: ">=3.10.0"
+  flutter: ">=3.22.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  flutter_form_builder: ^9.1.1
+  flutter_form_builder: ^9.2.1
   flutter_localizations:
     sdk: flutter
   form_builder_extra_fields:
     path: ../
-  form_builder_validators: ^9.1.0
+  form_builder_validators:
+    git: 
+      url: https://github.com/kromtom/form_builder_validators.git
+      ref: main
 
 dev_dependencies:
-  flutter_lints: ^2.0.3
+  flutter_lints: ^4.0.0
   flutter_test:
     sdk: flutter
 
